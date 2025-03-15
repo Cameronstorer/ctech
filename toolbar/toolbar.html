@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<!--<link rel="stylesheet" href="styles.css"> -->
+<link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="../types.css">
 <!-- cache busting?
 <link rel="stylesheet" href="../style.css?v=1.2.3"> -->
@@ -10,12 +10,25 @@
 
 <body>
 
-    <button><a href="https://cameronstorer.github.io/ctech/abstract" 
-        class="subtleHyperlink">Abstract</a></button>
-    <button><a href="https://cameronstorer.github.io/ctech/blog" 
-        class="subtleHyperlink">Blog</a></button>    
-    <button><a href="https://cameronstorer.github.io/ctech/contact" 
-        class="subtleHyperlink">Contact</a></button>
-    <button><a href="https://cameronstorer.github.io/ctech/donate" 
-        class="subtleHyperlink">Buy Me A Coffee</a></button>
+    <button id="abstract"> Abstract</button>
+    <button id="blog"> Blog</button>
+    <button id="contact"> Contact</button>
+    <button id="donate"> Buy Me A Coffee</button>
+
+    <script>
+
+        // define possible button id's:
+        let buttonNames = ["abstract", "blog", "contact", "donate"];
+
+
+        // take action
+        document.addEventListener("click", function(event) {
+            if (event.target.tagName === "BUTTON") { //Ensure it's a button
+                if (buttonNames.includes(event.target.id)){ // Figure out which button
+                    window.parent.location.href = "https://cameronstorer.github.io/ctech/" + event.target.id;
+                }
+            }
+        });
+
+    </script>
 </body>
