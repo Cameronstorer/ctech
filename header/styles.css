@@ -45,7 +45,7 @@ button {    /* describe a button */
 
 button:hover {    /* describe a button upon mouse hover */
     cursor: pointer;
-    background-color: rgb(0, 153, 255);
+    background-color: rgb(0, 73, 231);
 }
 
     /* Adjust header*/
