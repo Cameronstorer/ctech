@@ -1,0 +1,51 @@
+/* Base styles (applied to all screen sizes) */
+
+body, html { /* remove all padding and margins */
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    /* set the background color */
+    /*background-image: url("assets/bg8.png");
+    background-size: 6%;
+    background-repeat: repeat;
+    image-rendering: pixelated;*/
+}
+
+/* Adjust header 2 */
+h1 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:24;
+}
+
+/* set the color of the body */
+body {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align:left;
+    font-family: 'Times New Roman', Times, serif;
+    font: size 16px;
+    padding:30px;
+}
+  
+/* Mobile styles (max-width: 767px) */
+@media (max-width: 767px) {
+
+    .mobile-only {
+        display: block;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+}
+
+/* Desktop/Tablet styles (min-width: 768px) */
+@media (min-width: 768px) {
+
+}
