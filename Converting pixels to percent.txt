@@ -1,0 +1,8 @@
+Converting pixels to percent
+
+(target pixel value / parent element size) * 100 = percentage value
+
+my screen= 2560x1440
+
+		x by y
+
