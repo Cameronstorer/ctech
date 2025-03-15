@@ -10,22 +10,26 @@
     <link rel="icon" href="assets/icon.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="types.css">
+    
+    <script>
+        // Same-Origin iframe resizing
+        function resizeIframe(obj) {
+        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+    </script>
+
 </head>
 
 <body>
 
-    <iframe
+    <iframe width="100%"
+        name="header"
         src="header/header.html"
         frameborder="0" 
     ></iframe>
 
     <h2>Welcome and enjoy your stay!</h2>
     <a href="https://youtube.com/c/crishbiskit09" target="_blank">My YouTube Channel</a>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
 
 </body>
 </html>

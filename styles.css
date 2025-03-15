@@ -5,12 +5,8 @@ body, html { /* remove all padding and margins */
     padding:0;
     height:100%;
     width:100%;
-}
-
-/* set the background color */
-body {
     background-color: rgb(255, 70, 70);
-    
+    /* set the background color */
     /*background-image: url("assets/bg8.png");
     background-size: 6%;
     background-repeat: repeat;
@@ -19,33 +15,27 @@ body {
 
 /* Adjust header 2 */
 h2 {
-    font-size: 16px;
-    font-weight:lighter;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* set the color of the body */
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    margin: 0;
     font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
 }
 
 /* Adjust the iframe */
 iframe {
     background-color: rgb(204, 35, 35);
-    display:flex;
-    margin:auto;
-    width:100%;
-
 }
   
 /* Mobile styles (max-width: 767px) */
 @media (max-width: 767px) {
-
-    iframe {
-        height:21%
-    }
 
     .mobile-only {
         display: block;
@@ -58,9 +48,5 @@ iframe {
 
 /* Desktop/Tablet styles (min-width: 768px) */
 @media (min-width: 768px) {
-
-    iframe {
-        
-    }
 
 }

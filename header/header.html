@@ -6,16 +6,17 @@
 <link rel="stylesheet" href="../types.css">
 </head>
 
-<body>
+<body onload="window.parent.resizeIframe(header)">
 
-    <h1><a href="https://cameronstorer.github.io/ctech" target="_parent" class="subtleHyperlink">Cameron's Tech Journal</a></h1>
-
-    <!-- correctly align buttons -->
-    <div class = "buttonContainer">
-        <button id="abstract" > Abstract</button>
-        <button id="blog"> Blog</button>
-        <button id="contact"> Contact</button>
-        <button id="donate"> Buy Me A Coffee</button>
+    <div class = "headerContainer">
+        <h1><a href="https://cameronstorer.github.io/ctech" target="_parent" class="subtleHyperlink">Cameron's Tech Journal</a></h1>
+        <!-- correctly align buttons -->
+        <div class = "buttonContainer">
+            <button id="abstract" > Abstract</button>
+            <button id="blog"> Blog</button>
+            <button id="contact"> Contact</button>
+            <button id="donate"> Buy Me A Coffee</button>
+        </div>
     </div>
 
     <!-- javascript to add button functionality -->
@@ -23,7 +24,6 @@
 
         // define possible button id's:
         let buttonNames = ["abstract", "blog", "contact", "donate"];
-
 
         // take action
         document.addEventListener("click", function(event) {
