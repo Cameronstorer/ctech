@@ -89,11 +89,12 @@ button:hover {    /* describe a button upon mouse hover */
 
     .buttonContainer {
         width: 99%;
-        font-size:100%
+        font-size:100%;
     }
 
     .headerContainer {
         row-gap:25%;
+        margin-left:1%;
     }
 
     button {
