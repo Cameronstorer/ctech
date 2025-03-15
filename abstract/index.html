@@ -12,14 +12,19 @@
     <link rel="stylesheet" href="../types.css">
 
 </head>
-
 <body>
 
-    <iframe width="100%"
-        name="header"
-        src="../header/header.html"
-        frameborder="0" 
-    ></iframe>
+    <div id="content-placeholder">
+    </div>
+
+  <script>
+    fetch('../header/header.html')
+
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('content-placeholder').innerHTML = data;
+      });
+  </script>
 
     <h2>Welcome and enjoy your stay!</h2>
     <a href="https://youtube.com/c/crishbiskit09" target="_blank">My YouTube Channel</a>
