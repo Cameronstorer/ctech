@@ -1,3 +1,5 @@
+// include snippets of html code from one html doc into another...
+
 async function includeHTML(elementId, filePath) {
     try {
       const response = await fetch(filePath);
@@ -11,5 +13,3 @@ async function includeHTML(elementId, filePath) {
     }
   }
   
-//Include toolbar.html into element with id addToolbar.
-includeHTML("addToolbar", "../toolbar/toolbar.html");

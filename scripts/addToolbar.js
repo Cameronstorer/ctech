@@ -1,5 +1,7 @@
-// javascript to add button functionality
 
+// This script adds the toolbar to the webpage
+
+// javascript to add button functionality
     // define possible button id's:
     let buttonNames = ["abstract", "blog", "contact", "donate"];
     // take action
@@ -10,3 +12,6 @@
             }
         }
     });
+
+//Include toolbar.html into element with id addToolbar.
+includeHTML("addToolbar", "../toolbar/toolbar.html");
