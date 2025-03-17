@@ -1,0 +1,52 @@
+/* Base styles (applied to all screen sizes) */
+
+body, html { /* remove all padding and margins */
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    background-color: rgb(255, 70, 70);
+    /* set the background color */
+    /*background-image: url("assets/bg8.png");
+    background-size: 6%;
+    background-repeat: repeat;
+    image-rendering: pixelated;*/
+}
+
+/* Adjust header 2 */
+h2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* set the color of the body */
+body {
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+/* Adjust the iframe */
+iframe {
+    background-color: rgb(204, 35, 35);
+}
+  
+/* Mobile styles (max-width: 767px) */
+@media (max-width: 767px) {
+
+    .mobile-only {
+        display: block;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+}
+
+/* Desktop/Tablet styles (min-width: 768px) */
+@media (min-width: 768px) {
+
+}

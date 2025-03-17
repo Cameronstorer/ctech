@@ -16,24 +16,10 @@
 
 <body>
 
-    <h1><a href="https://cameronstorer.github.io/ctech/abstract" target="_parent" class="subtleHyperlink">Cameron's Tech Journal</a></h1>
-    <!-- correctly align buttons -->
-    <div class = "buttonContainer" style="padding-left:1%; padding-right:1%; width:98%;justify-self: center;">
-        <button id="abstract" > Abstract</button>
-        <button id="blog"> Blog</button>
-        <button id="contact"> Contact</button>
-        <button id="donate"> Buy Me A <br/> Coffee</button>
-    </div>
-    <!-- javascript to add button functionality -->
-    <script>
-        // define possible button id's:
-        let buttonNames = ["abstract", "blog", "contact", "donate"];
-        // take action
-        document.addEventListener("click", function(event) {
-            if (event.target.tagName === "BUTTON") { //Ensure it's a button
-                if (buttonNames.includes(event.target.id)){ // Figure out which button
-                    window.parent.location.href = "https://cameronstorer.github.io/ctech/" + event.target.id;
-        }}});</script>
+    <!-- TOOLBAR -->
+    <script src="../scripts/include.js"></script>
+    <link rel="stylesheet" href="../toolbar/toolbar.css">
+    <div id="addToolbar"></div>
 
     <h2 style="color:white">
     Email:
