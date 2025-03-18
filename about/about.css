@@ -1,0 +1,16 @@
+.aboutMeContainer {
+    margin:0%;
+    padding:0%;
+    background-color: white;
+    display:grid;
+    grid-template-columns: fr1 fr1;
+    grid-template-rows: fr1;
+
+}
+
+img[alt="portrait"] {
+    height:5%;
+    width:5%;
+    /*margin:5%;*/
+    /* scale:3%; */
+}
