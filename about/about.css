@@ -39,12 +39,28 @@ p[alt="portrait"] {
 
 
     h1 {
-        font-size: 3vw;
+        font-size: 5vw;
     }
     p {
-        font-size: 2vw;
+        font-size: 3.75vw;
     }
-
+    img[alt="portrait"] {
+        border-width:5%;
+        border-radius:5%;
+        width:50%;
+    }
+    p[alt="portrait"] {
+        font-size:3vw;
+        line-height: 104%;
+        width: 50%;
+    }
+    .aboutMeContainer {
+        column-gap:2%;
+        width:80%;
+        margin: 0 auto;
+        padding:1.2%;
+        border-radius:5%;
+    }
 
     .mobile-only {
         display: block;
@@ -56,6 +72,6 @@ p[alt="portrait"] {
 }
 
 /* Desktop/Tablet styles (min-width: 768px) */
-@media (min-width: 768px) {
+@media (min-width: 601px) {
 
 }

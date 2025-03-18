@@ -89,6 +89,6 @@ button:hover {          /* describe a button upon mouse hover */
     }
     
     /* Desktop/Tablet styles (min-width: 768px) */
-    @media (min-width: 768px) {
+    @media (min-width: 601px) {
     
     }
