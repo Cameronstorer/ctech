@@ -54,6 +54,10 @@ p {
 
 }
   
+.spacer {
+    height:25%;
+}
+
 /* Mobile styles (max-width: 767px) */
 @media (max-width: 600px) {
 
