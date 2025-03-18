@@ -37,7 +37,8 @@ p {
     text-align: center;
     margin-left: 7%;
     margin-right: 7%;
-    font-size: 1vw;
+    font-size:1.62vw;
+    line-height: 104%;
     font-family: Arial, Helvetica, sans-serif;
 
 }
