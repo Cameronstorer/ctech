@@ -1,3 +1,14 @@
+/* site colors */
+
+:root {
+
+    --darkOfLogo: rgb(4,68,118);
+    --LightOfLogo: rgb(179,217,225);
+    --pageBackground: rgb(235, 254, 255);
+    --toolbarBackground: rgb(0, 153, 255);
+
+}
+
 /* Base styles (applied to all screen sizes) */
 body, html { 
     /* remove all padding and margins */    
@@ -7,7 +18,7 @@ body, html {
     width:100%;
 
     /* set the background color */    
-    background-color: rgb(211, 252, 255);
+    background-color: var(--pageBackground);
 
     /*background-image: url("assets/bg8.png");
     background-size: 6%;

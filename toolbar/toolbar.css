@@ -1,13 +1,21 @@
+:root {
+
+        --darkOfLogo: rgb(4,68,118);
+        --LightOfLogo: rgb(179,217,225);
+        --pageBackground: rgb(235, 254, 255);
+        --toolbarBackground: rgb(0, 153, 255);
+    
+    }
+
 img[alt="LOGO"] {       /* LOGO Attributes */
-        background-color: rgb(0, 153, 255);
         width: 90%;
         align-self:left;
         vertical-align: center;
       }
 
 button {        /* describe a button */
-        color: rgb(211, 252, 255);
-        background-color: rgb(4,68,118);
+        color: var(--pageBackground);
+        background-color: var(--darkOfLogo);
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1vw;
         height:95%;
@@ -16,7 +24,7 @@ button {        /* describe a button */
 }
 
 button:hover {          /* describe a button upon mouse hover */
-        color: rgb(211, 252, 255);
+        color: var(--pageBackground);
         background-color: rgb(6, 89, 153);
         cursor: pointer;
 }
@@ -40,7 +48,7 @@ button:hover {          /* describe a button upon mouse hover */
         padding-top: 5px;
         align-items: center;
 
-        background-color: rgb(0, 153, 255);
+        background-color: var(--toolbarBackground);
         justify-content:space-between;
 
 }

@@ -1,10 +1,15 @@
 .content {
 }
-
+:root {
+    --darkOfLogo: rgb(4,68,118);
+    --LightOfLogo: rgb(179,217,225);
+    --pageBackground: rgb(235, 254, 255);
+    --toolbarBackground: rgb(0, 153, 255);
+}
 
 .aboutMeContainer {
     display:flex;
-    background-color: rgb(4,68,118);
+    background-color: var(--darkOfLogo);
     column-gap:1.3%;
     width:44%;
     margin: 0 auto;
